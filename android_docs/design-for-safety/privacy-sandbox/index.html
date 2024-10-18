@@ -1,0 +1,3595 @@
+<!doctype html>
+<html 
+      lang="en"
+      dir="ltr">
+  <head>
+    <meta name="google-signin-client-id" content="721724668570-nbkv1cfusk7kk4eni4pjvepaus73b13t.apps.googleusercontent.com">
+    <meta name="google-signin-scope"
+          content="profile email https://www.googleapis.com/auth/developerprofiles https://www.googleapis.com/auth/developerprofiles.award">
+    <meta property="og:site_name" content="Google for Developers">
+    <meta property="og:type" content="website"><meta name="theme-color" content="#fff"><meta charset="utf-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+    <link rel="manifest" href="/_pwa/developers/manifest.json"
+          crossorigin="use-credentials">
+    <link rel="preconnect" href="//www.gstatic.com" crossorigin>
+    <link rel="preconnect" href="//fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="//fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="//apis.google.com" crossorigin>
+    <link rel="preconnect" href="//www.google-analytics.com" crossorigin><link rel="stylesheet" href="//fonts.googleapis.com/css?family=Google+Sans:400,500|Roboto:400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700&display=swap">
+      <link rel="stylesheet"
+            href="//fonts.googleapis.com/css2?family=Material+Icons&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=block"><link rel="stylesheet" href="https://www.gstatic.com/devrel-devsite/prod/vb4766d511641fb9a17edf27ece72c6c6ca056c75a92d2c9b1f18896d7eaaa135/developers/css/app.css">
+      <link rel="shortcut icon" href="https://www.gstatic.com/devrel-devsite/prod/vb4766d511641fb9a17edf27ece72c6c6ca056c75a92d2c9b1f18896d7eaaa135/developers/images/favicon-new.png">
+    <link rel="apple-touch-icon" href="https://www.gstatic.com/devrel-devsite/prod/vb4766d511641fb9a17edf27ece72c6c6ca056c75a92d2c9b1f18896d7eaaa135/developers/images/touchicon-180-new.png"><link rel="canonical" href="https://developers.google.com/privacy-sandbox"><link rel="search" type="application/opensearchdescription+xml"
+            title="Google for Developers" href="https://developers.google.com/s/opensearch.xml">
+      <link rel="alternate" hreflang="en"
+          href="https://developers.google.com/privacy-sandbox" /><link rel="alternate" hreflang="x-default" href="https://developers.google.com/privacy-sandbox" /><link rel="alternate" hreflang="ar"
+          href="https://developers.google.com/privacy-sandbox?hl=ar" /><link rel="alternate" hreflang="bn"
+          href="https://developers.google.com/privacy-sandbox?hl=bn" /><link rel="alternate" hreflang="zh-Hans"
+          href="https://developers.google.com/privacy-sandbox?hl=zh-cn" /><link rel="alternate" hreflang="zh-Hant"
+          href="https://developers.google.com/privacy-sandbox?hl=zh-tw" /><link rel="alternate" hreflang="fa"
+          href="https://developers.google.com/privacy-sandbox?hl=fa" /><link rel="alternate" hreflang="fr"
+          href="https://developers.google.com/privacy-sandbox?hl=fr" /><link rel="alternate" hreflang="de"
+          href="https://developers.google.com/privacy-sandbox?hl=de" /><link rel="alternate" hreflang="he"
+          href="https://developers.google.com/privacy-sandbox?hl=he" /><link rel="alternate" hreflang="hi"
+          href="https://developers.google.com/privacy-sandbox?hl=hi" /><link rel="alternate" hreflang="id"
+          href="https://developers.google.com/privacy-sandbox?hl=id" /><link rel="alternate" hreflang="it"
+          href="https://developers.google.com/privacy-sandbox?hl=it" /><link rel="alternate" hreflang="ja"
+          href="https://developers.google.com/privacy-sandbox?hl=ja" /><link rel="alternate" hreflang="ko"
+          href="https://developers.google.com/privacy-sandbox?hl=ko" /><link rel="alternate" hreflang="pl"
+          href="https://developers.google.com/privacy-sandbox?hl=pl" /><link rel="alternate" hreflang="pt-BR"
+          href="https://developers.google.com/privacy-sandbox?hl=pt-br" /><link rel="alternate" hreflang="ru"
+          href="https://developers.google.com/privacy-sandbox?hl=ru" /><link rel="alternate" hreflang="es-419"
+          href="https://developers.google.com/privacy-sandbox?hl=es-419" /><link rel="alternate" hreflang="th"
+          href="https://developers.google.com/privacy-sandbox?hl=th" /><link rel="alternate" hreflang="tr"
+          href="https://developers.google.com/privacy-sandbox?hl=tr" /><link rel="alternate" hreflang="vi"
+          href="https://developers.google.com/privacy-sandbox?hl=vi" /><title>Privacy Sandbox &nbsp;|&nbsp; Google for Developers</title>
+
+<meta property="og:title" content="Privacy Sandbox &nbsp;|&nbsp; Google for Developers"><meta name="description" content="Privacy-focused APIs and updates for cookies, advertising, identity, personalization, and fraud prevention.
+">
+  <meta property="og:description" content="Privacy-focused APIs and updates for cookies, advertising, identity, personalization, and fraud prevention.
+"><meta property="og:url" content="https://developers.google.com/privacy-sandbox"><meta property="og:image" content="https://developers.google.com/static/privacy-sandbox/assets/images/privacy-sandbox-for-developers.png">
+  <meta property="og:image:width" content="1600">
+  <meta property="og:image:height" content="900"><meta property="og:locale" content="en"><meta name="twitter:card" content="summary_large_image">
+    
+      <link rel="stylesheet" href="/extras.css"></head>
+  <body class=""
+        template="landing"
+        theme="white"
+        type="landing"
+        
+        
+        
+        layout="docs"
+        
+        
+        
+        
+          
+            concierge='closed'
+          
+        
+        display-toc
+        pending>
+    <devsite-progress type="indeterminate" id="app-progress"></devsite-progress>
+  
+    <section class="devsite-wrapper">
+      
+      <devsite-cookie-notification-bar></devsite-cookie-notification-bar>
+      <devsite-header role="banner">
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="devsite-header--inner nocontent">
+  <div class="devsite-top-logo-row-wrapper-wrapper">
+    <div class="devsite-top-logo-row-wrapper">
+      <div class="devsite-top-logo-row">
+        <button type="button" id="devsite-hamburger-menu"
+          class="devsite-header-icon-button button-flat material-icons gc-analytics-event"
+          data-category="Site-Wide Custom Events"
+          data-label="Navigation menu button"
+          visually-hidden
+          aria-label="Open menu">
+        </button>
+        <div class="devsite-product-name-wrapper">
+
+  
+    
+  
+  <a href="https://developers.google.com/privacy-sandbox">
+    
+  <div class="devsite-product-logo-container"
+       
+       
+       
+    size="medium"
+  >
+  
+    <picture>
+      
+      <img class="devsite-product-logo"
+           alt="Privacy Sandbox"
+           src="https://developers.google.com/static/privacy-sandbox/assets/images/privacy-sandbox-logo.png"
+           srcset="https://developers.google.com/static/privacy-sandbox/assets/images/privacy-sandbox-logo_36.png 36w, https://developers.google.com/static/privacy-sandbox/assets/images/privacy-sandbox-logo_48.png 48w, https://developers.google.com/static/privacy-sandbox/assets/images/privacy-sandbox-logo_72.png 72w, https://developers.google.com/static/privacy-sandbox/assets/images/privacy-sandbox-logo_96.png 96w, https://developers.google.com/static/privacy-sandbox/assets/images/privacy-sandbox-logo_480.png 480w, https://developers.google.com/static/privacy-sandbox/assets/images/privacy-sandbox-logo_720.png 720w, https://developers.google.com/static/privacy-sandbox/assets/images/privacy-sandbox-logo_856.png 856w, https://developers.google.com/static/privacy-sandbox/assets/images/privacy-sandbox-logo_960.png 960w, https://developers.google.com/static/privacy-sandbox/assets/images/privacy-sandbox-logo_1440.png 1440w, https://developers.google.com/static/privacy-sandbox/assets/images/privacy-sandbox-logo_1920.png 1920w, https://developers.google.com/static/privacy-sandbox/assets/images/privacy-sandbox-logo_2880.png 2880w"
+           sizes="64px"
+           loading="lazy"
+           >
+    </picture>
+  
+  </div>
+  
+  </a>
+  
+
+  
+
+
+
+  
+  
+  <span class="devsite-product-name">
+    <ul class="devsite-breadcrumb-list"
+  >
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+    
+    
+      
+      
+        
+  <a href="https://developers.google.com/privacy-sandbox"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Upper Header"
+      
+        data-value="1"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="1"
+      
+        track-metadata-eventdetail="Privacy Sandbox"
+      
+    >
+    Privacy Sandbox
+  </a>
+  
+      
+    
+  </li>
+  
+</ul>
+  </span>
+
+</div>
+        <div class="devsite-top-logo-row-middle">
+          <div class="devsite-header-upper-tabs">
+            
+              
+              
+  <devsite-tabs class="upper-tabs">
+
+    <nav class="devsite-tabs-wrapper" aria-label="Upper tabs">
+      
+        
+          <tab  class="devsite-active">
+            
+    <a href="https://developers.google.com/privacy-sandbox"
+      track-metadata-eventdetail="https://developers.google.com/privacy-sandbox"
+    
+       class="devsite-tabs-content gc-analytics-event "
+       track-type="nav"
+       track-metadata-position="nav - overview"
+       track-metadata-module="primary nav"
+       aria-label="Overview, selected" 
+       
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Overview"
+         
+           track-name="overview"
+         
+       >
+    Overview
+  
+    </a>
+  
+  
+          </tab>
+        
+      
+        
+          <tab  >
+            
+    <a href="https://developers.google.com/privacy-sandbox/cookies"
+      track-metadata-eventdetail="https://developers.google.com/privacy-sandbox/cookies"
+    
+       class="devsite-tabs-content gc-analytics-event "
+       track-type="nav"
+       track-metadata-position="nav - cookies"
+       track-metadata-module="primary nav"
+       
+       
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Cookies"
+         
+           track-name="cookies"
+         
+       >
+    Cookies
+  
+    </a>
+  
+  
+          </tab>
+        
+      
+        
+          <tab  >
+            
+    <a href="https://developers.google.com/privacy-sandbox/private-advertising"
+      track-metadata-eventdetail="https://developers.google.com/privacy-sandbox/private-advertising"
+    
+       class="devsite-tabs-content gc-analytics-event "
+       track-type="nav"
+       track-metadata-position="nav - private advertising"
+       track-metadata-module="primary nav"
+       
+       
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Private advertising"
+         
+           track-name="private advertising"
+         
+       >
+    Private advertising
+  
+    </a>
+  
+  
+          </tab>
+        
+      
+        
+          <tab  >
+            
+    <a href="https://developers.google.com/privacy-sandbox/protections"
+      track-metadata-eventdetail="https://developers.google.com/privacy-sandbox/protections"
+    
+       class="devsite-tabs-content gc-analytics-event "
+       track-type="nav"
+       track-metadata-position="nav - privacy protections"
+       track-metadata-module="primary nav"
+       
+       
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Privacy protections"
+         
+           track-name="privacy protections"
+         
+       >
+    Privacy protections
+  
+    </a>
+  
+  
+          </tab>
+        
+      
+        
+          <tab  >
+            
+    <a href="https://developers.google.com/privacy-sandbox/learn"
+      track-metadata-eventdetail="https://developers.google.com/privacy-sandbox/learn"
+    
+       class="devsite-tabs-content gc-analytics-event "
+       track-type="nav"
+       track-metadata-position="nav - learn"
+       track-metadata-module="primary nav"
+       
+       
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Learn"
+         
+           track-name="learn"
+         
+       >
+    Learn
+  
+    </a>
+  
+  
+          </tab>
+        
+      
+        
+          <tab  >
+            
+    <a href="https://developers.google.com/privacy-sandbox/blog"
+      track-metadata-eventdetail="https://developers.google.com/privacy-sandbox/blog"
+    
+       class="devsite-tabs-content gc-analytics-event "
+       track-type="nav"
+       track-metadata-position="nav - blog"
+       track-metadata-module="primary nav"
+       
+       
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Blog"
+         
+           track-name="blog"
+         
+       >
+    Blog
+  
+    </a>
+  
+  
+          </tab>
+        
+      
+    </nav>
+
+  </devsite-tabs>
+
+            
+           </div>
+          
+<devsite-search
+    enable-signin
+    enable-search
+    enable-suggestions
+      enable-query-completion
+    
+    
+    project-name="Privacy Sandbox"
+    tenant-name="Google for Developers"
+    project-scope="/privacy-sandbox"
+    url-scoped="https://developers.google.com/s/results/privacy-sandbox"
+    
+    
+    
+    >
+  <form class="devsite-search-form" action="https://developers.google.com/s/results" method="GET">
+    <div class="devsite-search-container">
+      <button type="button"
+              search-open
+              class="devsite-search-button devsite-header-icon-button button-flat material-icons"
+              
+              aria-label="Open search"></button>
+      <div class="devsite-searchbox">
+        <input
+          aria-activedescendant=""
+          aria-autocomplete="list"
+          
+          aria-label="Search"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          autocomplete="off"
+          class="devsite-search-field devsite-search-query"
+          name="q"
+          
+          placeholder="Search"
+          role="combobox"
+          type="text"
+          value=""
+          >
+          <div class="devsite-search-image material-icons" aria-hidden="true">
+            
+          </div>
+          <div class="devsite-search-shortcut-icon-container" aria-hidden="true">
+            <kbd class="devsite-search-shortcut-icon">/</kbd>
+          </div>
+      </div>
+    </div>
+  </form>
+  <button type="button"
+          search-close
+          class="devsite-search-button devsite-header-icon-button button-flat material-icons"
+          
+          aria-label="Close search"></button>
+</devsite-search>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+<devsite-language-selector>
+  <ul role="presentation">
+    
+    
+    <li role="presentation">
+      <a role="menuitem" lang="en"
+        >English</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="de"
+        >Deutsch</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="es"
+        >Español</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="es_419"
+        >Español – América Latina</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="fr"
+        >Français</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="id"
+        >Indonesia</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="it"
+        >Italiano</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="pl"
+        >Polski</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="pt_br"
+        >Português – Brasil</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="vi"
+        >Tiếng Việt</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="tr"
+        >Türkçe</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ru"
+        >Русский</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="he"
+        >עברית</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ar"
+        >العربيّة</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="fa"
+        >فارسی</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="hi"
+        >हिंदी</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="bn"
+        >বাংলা</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="th"
+        >ภาษาไทย</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="zh_cn"
+        >中文 – 简体</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="zh_tw"
+        >中文 – 繁體</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ja"
+        >日本語</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ko"
+        >한국어</a>
+    </li>
+    
+  </ul>
+</devsite-language-selector>
+
+
+        
+          
+  <a class="devsite-header-link devsite-top-button button gc-analytics-event"
+     href="//privacysandbox.com/"
+     data-category="Site-Wide Custom Events"
+     data-label="Site header link"
+     >
+    Home
+  </a>
+  
+        
+
+        
+          
+          
+          <devsite-user 
+                        
+                        
+                          enable-profiles
+                        
+                        
+                          fp-auth
+                        
+                        id="devsite-user">
+            
+              
+              <span class="button devsite-top-button" aria-hidden="true" visually-hidden>Sign in</span>
+            
+        </devsite-user>
+           
+        
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="devsite-collapsible-section
+    
+      devsite-header-no-lower-tabs
+    ">
+    <div class="devsite-header-background">
+      
+        
+          <div class="devsite-product-id-row"
+           >
+            <div class="devsite-product-description-row">
+              
+                
+                  
+                  
+                  <ul class="devsite-breadcrumb-list"
+  >
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+    
+    
+      
+  <a href="https://developers.google.com/privacy-sandbox"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Lower Header"
+      
+        data-value="1"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="1"
+      
+        track-metadata-eventdetail=""
+      
+    >
+    
+        Overview
+      
+  </a>
+  
+    
+  </li>
+  
+</ul>
+                
+              
+              
+            </div>
+            
+          </div>
+          
+        
+      
+      
+    </div>
+  </div>
+
+</div>
+
+
+
+  
+
+  
+</devsite-header>
+      <devsite-book-nav scrollbars >
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="devsite-book-nav-filter"
+     >
+  <span class="filter-list-icon material-icons" aria-hidden="true"></span>
+  <input type="text"
+         placeholder="Filter"
+         
+         aria-label="Type to filter"
+         role="searchbox">
+  
+  <span class="filter-clear-button hidden"
+        data-title="Clear filter"
+        aria-label="Clear filter"
+        role="button"
+        tabindex="0"></span>
+</div>
+
+<nav class="devsite-book-nav devsite-nav nocontent"
+     aria-label="Side menu">
+  <div class="devsite-mobile-header">
+    <button type="button"
+            id="devsite-close-nav"
+            class="devsite-header-icon-button button-flat material-icons gc-analytics-event"
+            data-category="Site-Wide Custom Events"
+            data-label="Close navigation"
+            aria-label="Close navigation">
+    </button>
+    <div class="devsite-product-name-wrapper">
+
+  
+    
+  
+  <a href="https://developers.google.com/privacy-sandbox">
+    
+  <div class="devsite-product-logo-container"
+       
+       
+       
+    size="medium"
+  >
+  
+    <picture>
+      
+      <img class="devsite-product-logo"
+           alt="Privacy Sandbox"
+           src="https://developers.google.com/static/privacy-sandbox/assets/images/privacy-sandbox-logo.png"
+           srcset="https://developers.google.com/static/privacy-sandbox/assets/images/privacy-sandbox-logo_36.png 36w, https://developers.google.com/static/privacy-sandbox/assets/images/privacy-sandbox-logo_48.png 48w, https://developers.google.com/static/privacy-sandbox/assets/images/privacy-sandbox-logo_72.png 72w, https://developers.google.com/static/privacy-sandbox/assets/images/privacy-sandbox-logo_96.png 96w, https://developers.google.com/static/privacy-sandbox/assets/images/privacy-sandbox-logo_480.png 480w, https://developers.google.com/static/privacy-sandbox/assets/images/privacy-sandbox-logo_720.png 720w, https://developers.google.com/static/privacy-sandbox/assets/images/privacy-sandbox-logo_856.png 856w, https://developers.google.com/static/privacy-sandbox/assets/images/privacy-sandbox-logo_960.png 960w, https://developers.google.com/static/privacy-sandbox/assets/images/privacy-sandbox-logo_1440.png 1440w, https://developers.google.com/static/privacy-sandbox/assets/images/privacy-sandbox-logo_1920.png 1920w, https://developers.google.com/static/privacy-sandbox/assets/images/privacy-sandbox-logo_2880.png 2880w"
+           sizes="64px"
+           loading="lazy"
+           >
+    </picture>
+  
+  </div>
+  
+  </a>
+  
+
+  
+
+
+  
+      <span class="devsite-product-name">
+        
+        
+        <ul class="devsite-breadcrumb-list"
+  >
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+    
+    
+      
+      
+        
+  <a href="https://developers.google.com/privacy-sandbox"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Upper Header"
+      
+        data-value="1"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="1"
+      
+        track-metadata-eventdetail="Privacy Sandbox"
+      
+    >
+    Privacy Sandbox
+  </a>
+  
+      
+    
+  </li>
+  
+</ul>
+      </span>
+    
+
+</div>
+  </div>
+
+  <div class="devsite-book-nav-wrapper">
+    <div class="devsite-mobile-nav-top">
+      
+        <ul class="devsite-nav-list">
+          
+            <li class="devsite-nav-item">
+              
+  
+  <a href="/privacy-sandbox"
+    
+       class="devsite-nav-title gc-analytics-event
+              devsite-nav-has-children
+              devsite-nav-active"
+    
+
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: Overview"
+      
+        track-name="overview"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Overview"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Overview
+   </span>
+    
+    <span class="devsite-nav-icon material-icons" data-icon="forward"
+          >
+    </span>
+    
+  
+  </a>
+  
+
+  
+              
+            </li>
+          
+            <li class="devsite-nav-item">
+              
+  
+  <a href="/privacy-sandbox/cookies"
+    
+       class="devsite-nav-title gc-analytics-event
+              devsite-nav-has-children
+              "
+    
+
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: Cookies"
+      
+        track-name="cookies"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Cookies"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Cookies
+   </span>
+    
+    <span class="devsite-nav-icon material-icons" data-icon="forward"
+          >
+    </span>
+    
+  
+  </a>
+  
+
+  
+              
+            </li>
+          
+            <li class="devsite-nav-item">
+              
+  
+  <a href="/privacy-sandbox/private-advertising"
+    
+       class="devsite-nav-title gc-analytics-event
+              devsite-nav-has-children
+              "
+    
+
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: Private advertising"
+      
+        track-name="private advertising"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Private advertising"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Private advertising
+   </span>
+    
+    <span class="devsite-nav-icon material-icons" data-icon="forward"
+          >
+    </span>
+    
+  
+  </a>
+  
+
+  
+              
+            </li>
+          
+            <li class="devsite-nav-item">
+              
+  
+  <a href="/privacy-sandbox/protections"
+    
+       class="devsite-nav-title gc-analytics-event
+              devsite-nav-has-children
+              "
+    
+
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: Privacy protections"
+      
+        track-name="privacy protections"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Privacy protections"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Privacy protections
+   </span>
+    
+    <span class="devsite-nav-icon material-icons" data-icon="forward"
+          >
+    </span>
+    
+  
+  </a>
+  
+
+  
+              
+            </li>
+          
+            <li class="devsite-nav-item">
+              
+  
+  <a href="/privacy-sandbox/learn"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: Learn"
+      
+        track-name="learn"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Learn"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Learn
+   </span>
+    
+  
+  </a>
+  
+
+  
+              
+            </li>
+          
+            <li class="devsite-nav-item">
+              
+  
+  <a href="/privacy-sandbox/blog"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: Blog"
+      
+        track-name="blog"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Blog"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Blog
+   </span>
+    
+  
+  </a>
+  
+
+  
+              
+            </li>
+          
+          
+    
+<li class="devsite-nav-item">
+
+  
+  <a href="//privacysandbox.com/"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Home"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Home
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+  
+          
+        </ul>
+      
+    </div>
+    
+      <div class="devsite-mobile-nav-bottom">
+        
+          
+          <ul class="devsite-nav-list" menu="_book">
+            <li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>About Privacy Sandbox</span>
+      </div></li>
+
+  <li class="devsite-nav-item"><a href="/privacy-sandbox"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /privacy-sandbox"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/privacy-sandbox"
+      ><span class="devsite-nav-text" tooltip>What is the Privacy Sandbox</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/privacy-sandbox/overview/web"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /privacy-sandbox/overview/web"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/privacy-sandbox/overview/web"
+      ><span class="devsite-nav-text" tooltip>Web</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/privacy-sandbox/overview/android"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /privacy-sandbox/overview/android"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/privacy-sandbox/overview/android"
+      ><span class="devsite-nav-text" tooltip>Android</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>Status and progress updates</span>
+      </div></li>
+
+  <li class="devsite-nav-item"><a href="https://privacysandbox.com/open-web/#the-privacy-sandbox-timeline"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: https://privacysandbox.com/open-web/#the-privacy-sandbox-timeline"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="https://privacysandbox.com/open-web/#the-privacy-sandbox-timeline"
+      ><span class="devsite-nav-text" tooltip>Timeline</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/privacy-sandbox/overview/status"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /privacy-sandbox/overview/status"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/privacy-sandbox/overview/status"
+      ><span class="devsite-nav-text" tooltip>Web API status and feature releases</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/privacy-sandbox/overview/android-progress-updates"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /privacy-sandbox/overview/android-progress-updates"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/privacy-sandbox/overview/android-progress-updates"
+      ><span class="devsite-nav-text" tooltip>Android progress updates</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/privacy-sandbox/overview/android-release-notes"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /privacy-sandbox/overview/android-release-notes"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/privacy-sandbox/overview/android-release-notes"
+      ><span class="devsite-nav-text" tooltip>Android release notes</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>API availability</span>
+      </div></li>
+
+  <li class="devsite-nav-item"><a href="/privacy-sandbox/overview/where-are-the-privacy-sandbox-apis-available"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /privacy-sandbox/overview/where-are-the-privacy-sandbox-apis-available"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/privacy-sandbox/overview/where-are-the-privacy-sandbox-apis-available"
+      ><span class="devsite-nav-text" tooltip>Where are the Privacy Sandbox APIs available</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>Proposal lifecycle</span>
+      </div></li>
+
+  <li class="devsite-nav-item"><a href="/privacy-sandbox/overview/proposal-lifecycle"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /privacy-sandbox/overview/proposal-lifecycle"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/privacy-sandbox/overview/proposal-lifecycle"
+      ><span class="devsite-nav-text" tooltip>Proposal lifecycle in the Privacy Sandbox</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>Provide feedback for Privacy Sandbox</span>
+      </div></li>
+
+  <li class="devsite-nav-item"><a href="/privacy-sandbox/overview/feedback"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /privacy-sandbox/overview/feedback"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/privacy-sandbox/overview/feedback"
+      ><span class="devsite-nav-text" tooltip>Feedback</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-expandable"><div class="devsite-expandable-nav">
+      <a class="devsite-nav-toggle" aria-hidden="true"></a><div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button">
+        <span class="devsite-nav-text" tooltip>Feedback reports</span>
+      </div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a href="/privacy-sandbox/overview/feedback/report-2024-q1"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /privacy-sandbox/overview/feedback/report-2024-q1"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/privacy-sandbox/overview/feedback/report-2024-q1"
+      ><span class="devsite-nav-text" tooltip>Feedback report - 2024 Q1</span></a></li><li class="devsite-nav-item"><a href="/privacy-sandbox/overview/feedback/report-2023-q4"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /privacy-sandbox/overview/feedback/report-2023-q4"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/privacy-sandbox/overview/feedback/report-2023-q4"
+      ><span class="devsite-nav-text" tooltip>Feedback report - 2023 Q4</span></a></li><li class="devsite-nav-item"><a href="/privacy-sandbox/overview/feedback/report-2023-q3"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /privacy-sandbox/overview/feedback/report-2023-q3"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/privacy-sandbox/overview/feedback/report-2023-q3"
+      ><span class="devsite-nav-text" tooltip>Feedback report - 2023 Q3</span></a></li><li class="devsite-nav-item"><a href="/privacy-sandbox/overview/feedback/report-2023-q2"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /privacy-sandbox/overview/feedback/report-2023-q2"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/privacy-sandbox/overview/feedback/report-2023-q2"
+      ><span class="devsite-nav-text" tooltip>Feedback report - 2023 Q2</span></a></li><li class="devsite-nav-item"><a href="/privacy-sandbox/overview/feedback/report-2023-q1"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /privacy-sandbox/overview/feedback/report-2023-q1"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/privacy-sandbox/overview/feedback/report-2023-q1"
+      ><span class="devsite-nav-text" tooltip>Feedback report - 2023 Q1</span></a></li><li class="devsite-nav-item"><a href="/privacy-sandbox/overview/feedback/report-2022-q4"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /privacy-sandbox/overview/feedback/report-2022-q4"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/privacy-sandbox/overview/feedback/report-2022-q4"
+      ><span class="devsite-nav-text" tooltip>Feedback report - 2022 Q4</span></a></li><li class="devsite-nav-item"><a href="/privacy-sandbox/overview/feedback/report-2022-q3"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /privacy-sandbox/overview/feedback/report-2022-q3"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/privacy-sandbox/overview/feedback/report-2022-q3"
+      ><span class="devsite-nav-text" tooltip>Feedback report - 2022 Q3</span></a></li><li class="devsite-nav-item"><a href="/privacy-sandbox/overview/feedback/report-2022-q2"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /privacy-sandbox/overview/feedback/report-2022-q2"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/privacy-sandbox/overview/feedback/report-2022-q2"
+      ><span class="devsite-nav-text" tooltip>Feedback report - 2022 Q2</span></a></li><li class="devsite-nav-item"><a href="/privacy-sandbox/overview/feedback/report-2022-q1"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /privacy-sandbox/overview/feedback/report-2022-q1"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/privacy-sandbox/overview/feedback/report-2022-q1"
+      ><span class="devsite-nav-text" tooltip>Feedback report - 2022 Q1</span></a></li></ul></div></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>Further information</span>
+      </div></li>
+
+  <li class="devsite-nav-item"><a href="/privacy-sandbox/private-advertising/setup/web/permissions-policy"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /privacy-sandbox/private-advertising/setup/web/permissions-policy"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/privacy-sandbox/private-advertising/setup/web/permissions-policy"
+      ><span class="devsite-nav-text" tooltip>Permissions Policy</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/privacy-sandbox/overview/privacy-compliance-faqs"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /privacy-sandbox/overview/privacy-compliance-faqs"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/privacy-sandbox/overview/privacy-compliance-faqs"
+      ><span class="devsite-nav-text" tooltip>Privacy Compliance FAQs</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/privacy-sandbox/overview/testing-faq"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /privacy-sandbox/overview/testing-faq"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/privacy-sandbox/overview/testing-faq"
+      ><span class="devsite-nav-text" tooltip>Privacy Sandbox testing FAQs</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/privacy-sandbox/overview/testers"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /privacy-sandbox/overview/testers"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/privacy-sandbox/overview/testers"
+      ><span class="devsite-nav-text" tooltip>Android public tester list</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/privacy-sandbox/overview/relevance-and-measurement-faqs"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /privacy-sandbox/overview/relevance-and-measurement-faqs"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/privacy-sandbox/overview/relevance-and-measurement-faqs"
+      ><span class="devsite-nav-text" tooltip>Relevance &amp; measurement FAQs</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>Resources</span>
+      </div></li>
+
+  <li class="devsite-nav-item"><a href="/privacy-sandbox/resources"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /privacy-sandbox/resources"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/privacy-sandbox/resources"
+      ><span class="devsite-nav-text" tooltip>Overview</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/privacy-sandbox/resources/glossary"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /privacy-sandbox/resources/glossary"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/privacy-sandbox/resources/glossary"
+      ><span class="devsite-nav-text" tooltip>Glossary</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/privacy-sandbox/resources/demos"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /privacy-sandbox/resources/demos"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/privacy-sandbox/resources/demos"
+      ><span class="devsite-nav-text" tooltip>Demos</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/privacy-sandbox/resources/videos"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /privacy-sandbox/resources/videos"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/privacy-sandbox/resources/videos"
+      ><span class="devsite-nav-text" tooltip>Videos</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/privacy-sandbox/resources/events"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /privacy-sandbox/resources/events"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/privacy-sandbox/resources/events"
+      ><span class="devsite-nav-text" tooltip>Events</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-expandable"><div class="devsite-expandable-nav">
+      <a class="devsite-nav-toggle" aria-hidden="true"></a><div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button">
+        <span class="devsite-nav-text" tooltip>Case studies</span>
+      </div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a href="/privacy-sandbox/resources/case-studies/times-internet"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: /privacy-sandbox/resources/case-studies/times-internet"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="/privacy-sandbox/resources/case-studies/times-internet"
+      ><span class="devsite-nav-text" tooltip>Times Internet</span></a></li></ul></div></li>
+
+  <li class="devsite-nav-item"><a href="https://github.com/android/privacy-sandbox-samples"
+        class="devsite-nav-title gc-analytics-event"
+        data-category="Site-Wide Custom Events"
+        data-label="Book nav link, pathname: https://github.com/android/privacy-sandbox-samples"
+        track-type="bookNav"
+        track-name="click"
+        track-metadata-eventdetail="https://github.com/android/privacy-sandbox-samples"
+      ><span class="devsite-nav-text" tooltip>Android Samples</span></a></li>
+          </ul>
+        
+        
+          
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+        
+        
+          
+    
+  
+        
+      </div>
+    
+  </div>
+</nav>
+        
+      </devsite-book-nav>
+      <section id="gc-wrapper">
+        <main role="main" class="devsite-main-content"
+            
+              has-book-nav
+              
+            >
+          
+          
+          <devsite-content>
+            
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<article class="devsite-article">
+  
+  
+  
+  
+  
+
+  <div class="devsite-article-meta nocontent" role="navigation">
+    
+    
+    <ul class="devsite-breadcrumb-list"
+  
+    aria-label="Breadcrumb">
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+    
+    
+      
+  <a href="https://developers.google.com/"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Breadcrumbs"
+      
+        data-value="1"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="1"
+      
+        track-metadata-eventdetail=""
+      
+    >
+    
+        Home
+      
+  </a>
+  
+    
+  </li>
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+      
+      <div class="devsite-breadcrumb-guillemet material-icons" aria-hidden="true"></div>
+    
+    
+    
+      
+  <a href="https://developers.google.com/privacy-sandbox"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Breadcrumbs"
+      
+        data-value="2"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="2"
+      
+        track-metadata-eventdetail="Privacy Sandbox"
+      
+    >
+    
+        Privacy Sandbox
+      
+  </a>
+  
+    
+  </li>
+  
+</ul>
+    
+  </div>
+  
+    <devsite-feedback
+  position="header"
+  project-name="Privacy Sandbox"
+  product-id="5335444"
+  bucket=""
+  context=""
+  version="t-devsite-webserver-20241008-r00-rc00.464014813091492941"
+  data-label="Send Feedback Button"
+  track-type="feedback"
+  track-name="sendFeedbackLink"
+  track-metadata-position="header"
+  class="nocontent"
+  
+    disable-product-feedback
+  
+  
+  
+    
+      project-icon="https://developers.google.com/static/privacy-sandbox/assets/images/privacy-sandbox-logo.png"
+    
+  
+  
+  
+  >
+
+  <button>
+  
+    
+    Send feedback
+  
+  </button>
+</devsite-feedback>
+  
+    
+  <devsite-feature-tooltip
+      ack-key="AckCollectionsBookmarkTooltipDismiss"
+      analytics-category="Site-Wide Custom Events"
+      analytics-action-show="Callout Profile displayed"
+      analytics-action-close="Callout Profile dismissed"
+      analytics-label="Create Collection Callout"
+      class="devsite-page-bookmark-tooltip nocontent"
+      dismiss-button="true"
+      id="devsite-collections-dropdown"
+      
+      dismiss-button-text="Dismiss"
+
+      
+      close-button-text="Got it">
+
+    
+    <devsite-bookmark></devsite-bookmark>
+
+    <span slot="popout-heading">
+      
+      Stay organized with collections
+    </span>
+    <span slot="popout-contents">
+      
+      Save and categorize content based on your preferences.
+    </span>
+  </devsite-feature-tooltip>
+  
+
+  <devsite-toc class="devsite-nav"
+    depth="2"
+    devsite-toc-embedded
+    >
+  </devsite-toc>
+  
+
+  
+
+
+
+
+
+
+<div class="devsite-article-body clearfix
+  ">
+
+  
+    
+  <section class="devsite-landing-row devsite-landing-row-1-up devsite-landing-row-75 devsite-landing-row-hero devsite-landing-row-no-image-background"
+           
+           
+           
+    header-position="top"
+  >
+    <div class="devsite-landing-row-inner">
+
+    
+      
+
+      
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <figure class="devsite-landing-row-item-image">
+  
+    
+  
+  <picture>
+    
+    <img alt=""
+         
+         src="https://developers.google.com/static/privacy-sandbox/assets/images/privacy-sandbox-logo-padded.png"
+         srcset="https://developers.google.com/static/privacy-sandbox/assets/images/privacy-sandbox-logo-padded_36.png 36w,https://developers.google.com/static/privacy-sandbox/assets/images/privacy-sandbox-logo-padded_48.png 48w,https://developers.google.com/static/privacy-sandbox/assets/images/privacy-sandbox-logo-padded_72.png 72w,https://developers.google.com/static/privacy-sandbox/assets/images/privacy-sandbox-logo-padded_96.png 96w,https://developers.google.com/static/privacy-sandbox/assets/images/privacy-sandbox-logo-padded_480.png 480w,https://developers.google.com/static/privacy-sandbox/assets/images/privacy-sandbox-logo-padded_720.png 720w,https://developers.google.com/static/privacy-sandbox/assets/images/privacy-sandbox-logo-padded_856.png 856w,https://developers.google.com/static/privacy-sandbox/assets/images/privacy-sandbox-logo-padded_960.png 960w,https://developers.google.com/static/privacy-sandbox/assets/images/privacy-sandbox-logo-padded_1440.png 1440w,https://developers.google.com/static/privacy-sandbox/assets/images/privacy-sandbox-logo-padded_1920.png 1920w,https://developers.google.com/static/privacy-sandbox/assets/images/privacy-sandbox-logo-padded_2880.png 2880w"
+         
+         
+         sizes="(max-width: 600px) 100vw, (max-width: 840px) 50vw, 342px"
+         
+         
+         fetchpriority="high">
+  </picture>
+  
+  
+</figure>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="protect-user-privacy-online"
+        data-text="Protect user privacy online"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+    
+        Protect user privacy online
+      
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            The Privacy Sandbox initiative aims to create technologies that both protect people's privacy online and give companies and developers tools to build thriving digital businesses. The Privacy Sandbox reduces cross-site and cross-app tracking while helping to keep online content and services free for all.
+
+          </div>
+        
+
+        
+
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-2-up devsite-landing-row-header-centered devsite-landing-row-cards"
+           
+    background="grey"
+  
+           
+           
+    header-position="top"
+  >
+    <div class="devsite-landing-row-inner">
+
+    
+      
+      <header class="devsite-landing-row-header"
+              >
+
+        
+
+        
+        <div class="devsite-landing-row-header-text">
+
+          
+    <h2 id="get-started"
+        data-text="Get started"
+        
+        tabindex="0">
+      
+    
+        Get started
+      
+  
+    </h2>
+  
+
+          
+        </div>
+        
+
+        
+      </header>
+      
+
+      
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description"
+         
+    icon-position="left"
+  >
+
+      
+  
+  <a href="https://developers.google.com/privacy-sandbox/cookies">
+    
+  <div class="devsite-landing-row-item-icon-container"
+       
+       
+       
+    size="medium"
+  >
+  
+    <picture>
+      
+      <img class="devsite-landing-row-item-icon"
+           alt=""
+           src="https://developers.google.com/static/privacy-sandbox/overview/image/cookie.png"
+           srcset="https://developers.google.com/static/privacy-sandbox/overview/image/cookie_36.png 36w,https://developers.google.com/static/privacy-sandbox/overview/image/cookie_48.png 48w,https://developers.google.com/static/privacy-sandbox/overview/image/cookie_72.png 72w,https://developers.google.com/static/privacy-sandbox/overview/image/cookie_96.png 96w,https://developers.google.com/static/privacy-sandbox/overview/image/cookie_480.png 480w,https://developers.google.com/static/privacy-sandbox/overview/image/cookie_720.png 720w,https://developers.google.com/static/privacy-sandbox/overview/image/cookie_856.png 856w,https://developers.google.com/static/privacy-sandbox/overview/image/cookie_960.png 960w,https://developers.google.com/static/privacy-sandbox/overview/image/cookie_1440.png 1440w,https://developers.google.com/static/privacy-sandbox/overview/image/cookie_1920.png 1920w,https://developers.google.com/static/privacy-sandbox/overview/image/cookie_2880.png 2880w"
+           sizes="64px"
+           loading="lazy"
+           >
+    </picture>
+  
+  </div>
+  
+  </a>
+  
+
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="prepare-for-chrome-changes"
+        data-text="Prepare for Chrome changes"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+  <a href="https://developers.google.com/privacy-sandbox/cookies">
+    
+        Prepare for Chrome changes
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Learn more about changes to Chrome's treatment of third-party cookies and understand what actions you need to take to preserve your site's features.
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://developers.google.com/privacy-sandbox/cookies"
+  
+    
+      class="button
+             button-white
+             "
+    
+    
+    >Get started</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description"
+         
+    icon-position="left"
+  >
+
+      
+  
+  <a href="https://developers.google.com/privacy-sandbox/private-advertising">
+    
+  <div class="devsite-landing-row-item-icon-container"
+       
+       
+       
+    size="medium"
+  >
+  
+    <picture>
+      
+      <img class="devsite-landing-row-item-icon"
+           alt=""
+           src="https://developers.google.com/static/privacy-sandbox/overview/image/shield.png"
+           srcset="https://developers.google.com/static/privacy-sandbox/overview/image/shield_36.png 36w,https://developers.google.com/static/privacy-sandbox/overview/image/shield_48.png 48w,https://developers.google.com/static/privacy-sandbox/overview/image/shield_72.png 72w,https://developers.google.com/static/privacy-sandbox/overview/image/shield_96.png 96w,https://developers.google.com/static/privacy-sandbox/overview/image/shield_480.png 480w,https://developers.google.com/static/privacy-sandbox/overview/image/shield_720.png 720w,https://developers.google.com/static/privacy-sandbox/overview/image/shield_856.png 856w,https://developers.google.com/static/privacy-sandbox/overview/image/shield_960.png 960w,https://developers.google.com/static/privacy-sandbox/overview/image/shield_1440.png 1440w,https://developers.google.com/static/privacy-sandbox/overview/image/shield_1920.png 1920w,https://developers.google.com/static/privacy-sandbox/overview/image/shield_2880.png 2880w"
+           sizes="64px"
+           loading="lazy"
+           >
+    </picture>
+  
+  </div>
+  
+  </a>
+  
+
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="private-advertising-apis"
+        data-text="Private advertising APIs"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+  <a href="https://developers.google.com/privacy-sandbox/private-advertising">
+    
+        Private advertising APIs
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Start building with the Privacy Sandbox solutions to enable advertising use cases without third-party identifiers.
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://developers.google.com/privacy-sandbox/private-advertising"
+  
+    
+      class="button
+             button-white
+             "
+    
+    
+    >Get started</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-2-up devsite-landing-row-cards devsite-landing-row-header-centered"
+           
+    background="white"
+  
+           
+           
+    header-position="top"
+  >
+    <div class="devsite-landing-row-inner">
+
+    
+      
+      <header class="devsite-landing-row-header"
+              >
+
+        
+
+        
+        <div class="devsite-landing-row-header-text">
+
+          
+    <h2 id="about-the-initiative"
+        data-text="About the initiative"
+        
+        tabindex="0">
+      
+    
+        About the initiative
+      
+  
+    </h2>
+  
+
+          
+        </div>
+        
+
+        
+      </header>
+      
+
+      
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description"
+         
+    icon-position="left"
+  >
+
+      
+  
+  <a href="https://developers.google.com/privacy-sandbox/overview/web">
+    
+  <div class="devsite-landing-row-item-icon-container"
+       
+    background="blue"
+  
+       
+    foreground="white"
+  
+       
+    size="medium"
+  >
+  
+    <div class="devsite-landing-row-item-icon material-icons" aria-hidden="true">
+      language
+    </div>
+  
+  </div>
+  
+  </a>
+  
+
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="privacy-sandbox-on-web"
+        data-text="Privacy Sandbox on Web"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+  <a href="https://developers.google.com/privacy-sandbox/overview/web">
+    
+        Privacy Sandbox on Web
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            The Privacy Sandbox's vision of the future has browsers providing specific tools to satisfy specific use cases, while preserving user privacy.
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://developers.google.com/privacy-sandbox/overview/web"
+  
+    class="button
+      "
+    
+    
+    >Learn more</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description"
+         
+    icon-position="left"
+  >
+
+      
+  
+  <a href="https://developers.google.com/privacy-sandbox/overview/android">
+    
+  <div class="devsite-landing-row-item-icon-container"
+       
+    background="blue"
+  
+       
+    foreground="white"
+  
+       
+    size="medium"
+  >
+  
+    <div class="devsite-landing-row-item-icon material-icons" aria-hidden="true">
+      android
+    </div>
+  
+  </div>
+  
+  </a>
+  
+
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="privacy-sandbox-on-android"
+        data-text="Privacy Sandbox on Android"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+  <a href="https://developers.google.com/privacy-sandbox/overview/android">
+    
+        Privacy Sandbox on Android
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Our goal with the Privacy Sandbox on Android is to develop effective and privacy enhancing advertising solutions, where users know their privacy is protected, and developers and businesses have the tools to succeed on mobile.
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://developers.google.com/privacy-sandbox/overview/android"
+  
+    class="button
+      "
+    
+    
+    >Learn more</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-4-up devsite-landing-row-cards devsite-landing-row-header-centered"
+           
+    background="white"
+  
+           
+           
+    header-position="top"
+  >
+    <div class="devsite-landing-row-inner">
+
+    
+      
+      <header class="devsite-landing-row-header"
+              >
+
+        
+
+        
+        <div class="devsite-landing-row-header-text">
+
+          
+    <h2 id="latest-news"
+        data-text="Latest news"
+        
+        tabindex="0">
+      
+    
+        Latest news
+      
+  
+    </h2>
+  
+
+          
+            <div class="devsite-landing-row-description">
+              The latest news and updates on Privacy Sandbox
+
+            </div>
+          
+        </div>
+        
+
+        
+      </header>
+      
+
+      
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <figure class="devsite-landing-row-item-custom-image"
+        
+    background="blue"
+  
+        >
+  <div class="devsite-landing-row-item-custom-image-icon-wrapper">
+  
+  <a href="https://developers.google.com/privacy-sandbox/blog/3pc-lookup">
+    
+    
+  
+    
+  <div class="devsite-landing-row-item-custom-image-icon-container"
+       
+    background="blue"
+  
+       
+       
+    size="medium"
+  >
+  
+    <div class="devsite-landing-row-item-custom-image-icon material-icons" aria-hidden="true">
+      summarize
+    </div>
+  
+  </div>
+  
+  
+
+  
+  </a>
+  
+  </div>
+</figure>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="third-party-cookie-site-compatibility-lookup-tool"
+        data-text="Third-party cookie site compatibility lookup tool"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+  <a href="https://developers.google.com/privacy-sandbox/blog/3pc-lookup">
+    
+        Third-party cookie site compatibility lookup tool
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Chrome is providing a lookup service to show how third-party cookie availability is affected by Chrome's third-party cookie grace period, and grace period opt-out configuration.
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://developers.google.com/privacy-sandbox/blog/3pc-lookup"
+  
+    class="button
+      "
+    
+    
+    >Read more</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <figure class="devsite-landing-row-item-custom-image"
+        
+    background="blue"
+  
+        >
+  <div class="devsite-landing-row-item-custom-image-icon-wrapper">
+  
+  <a href="https://developers.google.com/privacy-sandbox/blog/topics-api-proactive-topic-blocking">
+    
+    
+  
+    
+  <div class="devsite-landing-row-item-custom-image-icon-container"
+       
+    background="blue"
+  
+       
+       
+    size="medium"
+  >
+  
+    <div class="devsite-landing-row-item-custom-image-icon material-icons" aria-hidden="true">
+      interests
+    </div>
+  
+  </div>
+  
+  
+
+  
+  </a>
+  
+  </div>
+</figure>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="topics-api-user-controls-on-chrome-proactive-topic-blocking"
+        data-text="Topics API: User controls on Chrome – Proactive Topic Blocking"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+  <a href="https://developers.google.com/privacy-sandbox/blog/topics-api-proactive-topic-blocking">
+    
+        Topics API: User controls on Chrome – Proactive Topic Blocking
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Chrome's Topics API update lets users proactively block ad topics, giving them more control over their ad experience.
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://developers.google.com/privacy-sandbox/blog/topics-api-proactive-topic-blocking"
+  
+    class="button
+      "
+    
+    
+    >Read more</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <figure class="devsite-landing-row-item-custom-image"
+        
+    background="blue"
+  
+        >
+  <div class="devsite-landing-row-item-custom-image-icon-wrapper">
+  
+  <a href="https://developers.google.com/privacy-sandbox/blog/3pc-exceptions-update">
+    
+    
+  
+    
+  <div class="devsite-landing-row-item-custom-image-icon-container"
+       
+    background="blue"
+  
+       
+       
+    size="medium"
+  >
+  
+    <div class="devsite-landing-row-item-custom-image-icon material-icons" aria-hidden="true">
+      cookie
+    </div>
+  
+  </div>
+  
+  
+
+  
+  </a>
+  
+  </div>
+</figure>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="updates-to-temporary-third-party-cookie-exceptions-in-chrome"
+        data-text="Updates to temporary third-party cookie exceptions in Chrome"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+  <a href="https://developers.google.com/privacy-sandbox/blog/3pc-exceptions-update">
+    
+        Updates to temporary third-party cookie exceptions in Chrome
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Chrome is extending the grace period that allows sites and services demonstrating user-facing, non-ads breakage to continue to access third-party cookies.
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://developers.google.com/privacy-sandbox/blog/3pc-exceptions-update"
+  
+    class="button
+      "
+    
+    
+    >Read more</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+    
+<div class="devsite-landing-row-item-media
+            ">
+  
+    <figure class="devsite-landing-row-item-custom-image"
+        
+    background="blue"
+  
+        >
+  <div class="devsite-landing-row-item-custom-image-icon-wrapper">
+  
+  <a href="https://developers.google.com/privacy-sandbox/blog">
+    
+    
+  
+    
+  <div class="devsite-landing-row-item-custom-image-icon-container"
+       
+    background="blue"
+  
+       
+       
+    size="medium"
+  >
+  
+    <div class="devsite-landing-row-item-custom-image-icon material-icons" aria-hidden="true">
+      feed
+    </div>
+  
+  </div>
+  
+  
+
+  
+  </a>
+  
+  </div>
+</figure>
+  
+</div>
+
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="view-all-articles"
+        data-text="View all articles"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+  <a href="https://developers.google.com/privacy-sandbox/blog">
+    
+        View all articles
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            See all the news, posts, and updates from the Privacy Sandbox blog.
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://developers.google.com/privacy-sandbox/blog"
+  
+    class="button
+      "
+    
+    
+    >View all</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+  <section class="devsite-landing-row devsite-landing-row-4-up"
+           
+    background="grey"
+  
+           
+           
+    header-position="left"
+  >
+    <div class="devsite-landing-row-inner">
+
+    
+      
+      <header class="devsite-landing-row-header"
+              >
+
+        
+
+        
+        <div class="devsite-landing-row-header-text">
+
+          
+    <h2 id="explore-additional-resources"
+        data-text="Explore additional resources"
+        
+        tabindex="0">
+      
+    
+        Explore additional resources
+      
+  
+    </h2>
+  
+
+          
+            <div class="devsite-landing-row-description">
+              Learn about the status and timeline of the Privacy Sandbox APIs and find out more about available resources.
+
+            </div>
+          
+        </div>
+        
+
+        
+      </header>
+      
+
+      
+      
+
+      
+
+        <div class="devsite-landing-row-group">
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="api-status-and-feature-updates-for-chrome"
+        data-text="API status and feature updates for Chrome"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+  <a href="https://developers.google.com/privacy-sandbox/overview/status">
+    
+        API status and feature updates for Chrome
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Review Chrome platform status, resources, and feature release timelines.
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://developers.google.com/privacy-sandbox/overview/status"
+  
+    class="button
+      "
+    
+    
+    >Learn more</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="progress-updates-for-android"
+        data-text="Progress updates for Android"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+  <a href="https://developers.google.com/privacy-sandbox/overview/android-progress-updates">
+    
+        Progress updates for Android
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            A summary of new developments and updates to the design proposals, key questions and feedback we have received.
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://developers.google.com/privacy-sandbox/overview/android-progress-updates"
+  
+    class="button
+      "
+    
+    
+    >Learn more</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="provide-feedback-for-chrome"
+        data-text="Provide feedback for Chrome"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+  <a href="https://developers.google.com/privacy-sandbox/overview/feedback">
+    
+        Provide feedback for Chrome
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            Where and how to provide feedback for Privacy Sandbox proposals throughout the development process.
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://developers.google.com/privacy-sandbox/overview/feedback"
+  
+    class="button
+      "
+    
+    
+    >Learn more</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+          <div class="devsite-landing-row-item devsite-landing-row-item-no-media"
+     
+     
+     
+    description-position="bottom"
+  >
+
+  
+    
+
+    
+    <div class="devsite-landing-row-item-description"
+         >
+
+      
+
+      <div class="devsite-landing-row-item-body">
+        
+
+        
+    <h3 id="resources"
+        data-text="Resources"
+        class="hide-from-toc no-link"
+        tabindex="0">
+      
+  <a href="https://developers.google.com/privacy-sandbox/resources">
+    
+        Resources
+      
+  </a>
+  
+    </h3>
+  
+
+        
+          <div class="devsite-landing-row-item-description-content">
+            In this section, you can find different resources such as demos, videos, training material, and information on events related to Privacy Sandbox.
+
+          </div>
+        
+
+        
+
+        
+          <div class="devsite-landing-row-item-buttons">
+  
+
+  
+  <a href="https://developers.google.com/privacy-sandbox/resources"
+  
+    class="button
+      "
+    
+    
+    >Learn more</a>
+
+</div>
+        
+      </div>
+    </div>
+    
+  
+
+</div>
+        
+        </div>
+      
+
+    
+    </div>
+  </section>
+
+  
+
+  
+</div>
+
+  
+
+  
+
+  
+  
+</article>
+
+
+<devsite-content-footer class="nocontent">
+  <p>Except as otherwise noted, the content of this page is licensed under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 License</a>, and code samples are licensed under the <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache 2.0 License</a>. For details, see the <a href="https://developers.google.com/site-policies">Google Developers Site Policies</a>. Java is a registered trademark of Oracle and/or its affiliates.</p>
+  <p>Last updated 2024-10-08 UTC.</p>
+</devsite-content-footer>
+
+
+<devsite-notification
+>
+</devsite-notification>
+
+
+  
+<div class="devsite-content-data">
+  
+    
+    
+    <template class="devsite-thumb-rating-feedback">
+      <devsite-feedback
+  position="thumb-rating"
+  project-name="Privacy Sandbox"
+  product-id="5335444"
+  bucket=""
+  context=""
+  version="t-devsite-webserver-20241008-r00-rc00.464014813091492941"
+  data-label="Send Feedback Button"
+  track-type="feedback"
+  track-name="sendFeedbackLink"
+  track-metadata-position="thumb-rating"
+  class="nocontent"
+  
+    disable-product-feedback
+  
+  
+  
+    
+      project-icon="https://developers.google.com/static/privacy-sandbox/assets/images/privacy-sandbox-logo.png"
+    
+  
+  
+  
+  >
+
+  <button>
+  
+    Need to tell us more?
+  
+  </button>
+</devsite-feedback>
+    </template>
+  
+  
+    <template class="devsite-content-data-template">
+      [[["Easy to understand","easyToUnderstand","thumb-up"],["Solved my problem","solvedMyProblem","thumb-up"],["Other","otherUp","thumb-up"]],[["Missing the information I need","missingTheInformationINeed","thumb-down"],["Too complicated / too many steps","tooComplicatedTooManySteps","thumb-down"],["Out of date","outOfDate","thumb-down"],["Samples / code issue","samplesCodeIssue","thumb-down"],["Other","otherDown","thumb-down"]],["Last updated 2024-10-08 UTC."],[],[]]
+    </template>
+  
+</div>
+            
+          </devsite-content>
+        </main>
+        <devsite-footer-promos class="devsite-footer">
+          
+            
+          
+        </devsite-footer-promos>
+        <devsite-footer-linkboxes class="devsite-footer">
+          
+            
+<nav class="devsite-footer-linkboxes nocontent" aria-label="Footer links">
+  
+  <ul class="devsite-footer-linkboxes-list">
+    
+    <li class="devsite-footer-linkbox ">
+    <h3 class="devsite-footer-linkbox-heading no-link">Get support</h3>
+      <ul class="devsite-footer-linkbox-list">
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="https://github.com/privacysandbox/privacy-sandbox-dev-support"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 1)"
+            >
+            
+          
+            Ask a question on our GitHub support repo
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="https://goo.gle/privacy-sandbox-feedback"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 2)"
+            >
+            
+              
+              
+            
+          
+            Submit project feedback
+          
+          </a>
+          
+          
+        </li>
+        
+      </ul>
+    </li>
+    
+    <li class="devsite-footer-linkbox ">
+    <h3 class="devsite-footer-linkbox-heading no-link">Get updates</h3>
+      <ul class="devsite-footer-linkbox-list">
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="/privacy-sandbox/blog"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 1)"
+            >
+            
+          
+            Developer blog
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="https://privacysandbox.com/news/"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 2)"
+            >
+            
+              
+              
+            
+          
+            Project news
+          
+          </a>
+          
+          
+        </li>
+        
+      </ul>
+    </li>
+    
+    <li class="devsite-footer-linkbox ">
+    <h3 class="devsite-footer-linkbox-heading no-link">Resources</h3>
+      <ul class="devsite-footer-linkbox-list">
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="https://privacysandbox.com/"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 1)"
+            >
+            
+          
+            Project site
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="https://privacysandbox.com/open-web/#the-privacy-sandbox-timeline"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 2)"
+            >
+            
+              
+              
+            
+          
+            Privacy Sandbox timeline
+          
+          </a>
+          
+          
+        </li>
+        
+      </ul>
+    </li>
+    
+    <li class="devsite-footer-linkbox ">
+    <h3 class="devsite-footer-linkbox-heading no-link">Tools</h3>
+      <ul class="devsite-footer-linkbox-list">
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="https://goo.gle/psat"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 1)"
+            >
+            
+          
+            Privacy Sandbox Analysis Tool
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="https://privacy-sandbox-demos.dev/"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 2)"
+            >
+            
+              
+              
+            
+          
+            Privacy Sandbox demos
+          
+          </a>
+          
+          
+        </li>
+        
+      </ul>
+    </li>
+    
+  </ul>
+  
+</nav>
+          
+        </devsite-footer-linkboxes>
+        <devsite-footer-utility class="devsite-footer">
+          
+            
+
+<div class="devsite-footer-utility nocontent">
+  
+  
+  <nav class="devsite-footer-sites" aria-label="Other Google Developers websites">
+    <a href="https://developers.google.com/"
+       class="devsite-footer-sites-logo-link gc-analytics-event"
+       data-category="Site-Wide Custom Events"
+       data-label="Footer Google Developers Link">
+      <picture>
+        
+        <img class="devsite-footer-sites-logo"
+             src="https://www.gstatic.com/devrel-devsite/prod/vb4766d511641fb9a17edf27ece72c6c6ca056c75a92d2c9b1f18896d7eaaa135/developers/images/lockup-google-for-developers.svg"
+             loading="lazy"
+             alt="Google Developers">
+      </picture>
+    </a>
+    <ul class="devsite-footer-sites-list">
+      
+      <li class="devsite-footer-sites-item">
+        <a href="//developer.android.com"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Footer Android Link"
+         
+         >
+          Android
+        </a>
+      </li>
+      
+      <li class="devsite-footer-sites-item">
+        <a href="//developer.chrome.com/home"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Footer Chrome Link"
+         
+         >
+          Chrome
+        </a>
+      </li>
+      
+      <li class="devsite-footer-sites-item">
+        <a href="//firebase.google.com"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Footer Firebase Link"
+         
+         >
+          Firebase
+        </a>
+      </li>
+      
+      <li class="devsite-footer-sites-item">
+        <a href="//cloud.google.com"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Footer Google Cloud Platform Link"
+         
+         >
+          Google Cloud Platform
+        </a>
+      </li>
+      
+      <li class="devsite-footer-sites-item">
+        <a href="//ai.google.dev/"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Footer Google AI Link"
+         
+         >
+          Google AI
+        </a>
+      </li>
+      
+      <li class="devsite-footer-sites-item">
+        <a href="/products"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Footer All products Link"
+         
+         >
+          All products
+        </a>
+      </li>
+      
+    </ul>
+  </nav>
+  
+
+  
+  <nav class="devsite-footer-utility-links" aria-label="Utility links">
+    
+    <ul class="devsite-footer-utility-list">
+      
+      <li class="devsite-footer-utility-item
+                 ">
+        
+        
+        <a class="devsite-footer-utility-link gc-analytics-event"
+           href="/terms/site-terms"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Terms link"
+         >
+          Terms
+        </a>
+        
+      </li>
+      
+      <li class="devsite-footer-utility-item
+                 ">
+        
+        
+        <a class="devsite-footer-utility-link gc-analytics-event"
+           href="//policies.google.com/privacy"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Privacy link"
+         >
+          Privacy
+        </a>
+        
+      </li>
+      
+      <li class="devsite-footer-utility-item
+                 glue-cookie-notification-bar-control">
+        
+        
+        <a class="devsite-footer-utility-link gc-analytics-event"
+           href="#"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Manage cookies link"
+         
+           aria-hidden="true"
+         >
+          Manage cookies
+        </a>
+        
+      </li>
+      
+      <li class="devsite-footer-utility-item
+                 devsite-footer-utility-button">
+        
+        <span class="devsite-footer-utility-description">Sign up for the Google for Developers newsletter</span>
+        
+        
+        <a class="devsite-footer-utility-link gc-analytics-event"
+           href="/newsletter/subscribe"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Subscribe link"
+         >
+          Subscribe
+        </a>
+        
+      </li>
+      
+    </ul>
+    
+    
+<devsite-language-selector>
+  <ul role="presentation">
+    
+    
+    <li role="presentation">
+      <a role="menuitem" lang="en"
+        >English</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="de"
+        >Deutsch</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="es"
+        >Español</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="es_419"
+        >Español – América Latina</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="fr"
+        >Français</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="id"
+        >Indonesia</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="it"
+        >Italiano</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="pl"
+        >Polski</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="pt_br"
+        >Português – Brasil</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="vi"
+        >Tiếng Việt</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="tr"
+        >Türkçe</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ru"
+        >Русский</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="he"
+        >עברית</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ar"
+        >العربيّة</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="fa"
+        >فارسی</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="hi"
+        >हिंदी</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="bn"
+        >বাংলা</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="th"
+        >ภาษาไทย</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="zh_cn"
+        >中文 – 简体</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="zh_tw"
+        >中文 – 繁體</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ja"
+        >日本語</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ko"
+        >한국어</a>
+    </li>
+    
+  </ul>
+</devsite-language-selector>
+
+  </nav>
+</div>
+          
+        </devsite-footer-utility>
+        <devsite-panel></devsite-panel>
+        
+          <devsite-concierge
+  
+  
+    data-info-panel
+  
+  
+    data-ai-panel
+  
+  
+  
+  
+    data-api-explorer-panel
+  >
+</devsite-concierge>
+        
+      </section></section>
+    <devsite-sitemask></devsite-sitemask>
+    <devsite-snackbar
+    
+    >
+</devsite-snackbar>
+    <devsite-tooltip ></devsite-tooltip>
+    <devsite-heading-link></devsite-heading-link>
+    <devsite-analytics>
+      
+        <script type="application/json" analytics>[{&#34;dimensions&#34;: {&#34;dimension11&#34;: false, &#34;dimension1&#34;: &#34;Signed out&#34;, &#34;dimension5&#34;: &#34;en&#34;, &#34;dimension4&#34;: &#34;Privacy Sandbox&#34;, &#34;dimension6&#34;: &#34;en&#34;, &#34;dimension3&#34;: false}, &#34;gaid&#34;: &#34;UA-24532603-1&#34;, &#34;metrics&#34;: {&#34;ratings_value&#34;: &#34;metric1&#34;, &#34;ratings_count&#34;: &#34;metric2&#34;}, &#34;purpose&#34;: 1}]</script>
+<script type="application/json" tag-management>{&#34;at&#34;: &#34;True&#34;, &#34;ga4&#34;: [{&#34;id&#34;: &#34;G-272J68FCRF&#34;, &#34;purpose&#34;: 1}], &#34;ga4p&#34;: [{&#34;id&#34;: &#34;G-272J68FCRF&#34;, &#34;purpose&#34;: 1}], &#34;gtm&#34;: [{&#34;id&#34;: &#34;GTM-WPJH8HP6&#34;, &#34;purpose&#34;: 0}], &#34;parameters&#34;: {&#34;internalUser&#34;: &#34;False&#34;, &#34;language&#34;: {&#34;machineTranslated&#34;: &#34;False&#34;, &#34;requested&#34;: &#34;en&#34;, &#34;served&#34;: &#34;en&#34;}, &#34;pageType&#34;: &#34;landing&#34;, &#34;projectName&#34;: &#34;Privacy Sandbox&#34;, &#34;signedIn&#34;: &#34;False&#34;, &#34;tenant&#34;: &#34;developers&#34;, &#34;recommendations&#34;: {&#34;sourcePage&#34;: &#34;&#34;, &#34;sourceType&#34;: 0, &#34;sourceRank&#34;: 0, &#34;sourceIdenticalDescriptions&#34;: 0, &#34;sourceTitleWords&#34;: 0, &#34;sourceDescriptionWords&#34;: 0, &#34;experiment&#34;: &#34;&#34;}, &#34;experiment&#34;: {&#34;ids&#34;: &#34;&#34;}}}</script>
+      
+    </devsite-analytics>
+    
+      <devsite-badger></devsite-badger>
+    
+    
+    <script nonce="4Y2FyxbQOFVfqD/1nxMqPhtY92JPuy">
+  
+  (function(d,e,v,s,i,t,E){d['GoogleDevelopersObject']=i;
+    t=e.createElement(v);t.async=1;t.src=s;E=e.getElementsByTagName(v)[0];
+    E.parentNode.insertBefore(t,E);})(window, document, 'script',
+    'https://www.gstatic.com/devrel-devsite/prod/vb4766d511641fb9a17edf27ece72c6c6ca056c75a92d2c9b1f18896d7eaaa135/developers/js/app_loader.js', '[1,"en",null,"/js/devsite_app_module.js","https://www.gstatic.com/devrel-devsite/prod/vb4766d511641fb9a17edf27ece72c6c6ca056c75a92d2c9b1f18896d7eaaa135","https://www.gstatic.com/devrel-devsite/prod/vb4766d511641fb9a17edf27ece72c6c6ca056c75a92d2c9b1f18896d7eaaa135/developers","https://developers-dot-devsite-v2-prod.appspot.com",1,null,["/_pwa/developers/manifest.json","https://www.gstatic.com/devrel-devsite/prod/vb4766d511641fb9a17edf27ece72c6c6ca056c75a92d2c9b1f18896d7eaaa135/images/video-placeholder.svg","https://www.gstatic.com/devrel-devsite/prod/vb4766d511641fb9a17edf27ece72c6c6ca056c75a92d2c9b1f18896d7eaaa135/developers/images/favicon-new.png","https://fonts.googleapis.com/css?family=Google+Sans:400,500|Roboto:400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700&display=swap"],1,null,[1,6,8,12,14,17,21,25,50,52,63,70,75,76,80,87,91,92,93,97,98,100,101,102,103,104,105,107,108,109,110,112,113,116,117,118,120,122,124,125,126,127,129,130,131,132,133,134,135,136,138,140,141,147,148,149,151,152,156,157,158,159,161,163,164,168,169,170,179,180,182,183,186,191,193,196],"AIzaSyAP-jjEJBzmIyKR4F-3XITp8yM9T1gEEI8","AIzaSyB6xiKGDR5O3Ak2okS4rLkauxGUG7XP0hg","developers.google.com","AIzaSyAQk0fBONSGUqCNznf6Krs82Ap1-NV6J4o","AIzaSyCCxcqdrZ_7QMeLCRY20bh_SXdAYqy70KY",null,null,null,["Concierge__enable_concierge_restricted","Search__enable_page_map","MiscFeatureFlags__enable_firebase_utm","MiscFeatureFlags__developers_footer_dark_image","Cloud__enable_cloud_shell_fte_user_flow","Search__enable_suggestions_from_borg","Cloud__enable_cloud_shell","TpcFeatures__enable_mirror_tenant_redirects","MiscFeatureFlags__enable_view_transitions","MiscFeatureFlags__enable_variable_operator","Profiles__enable_recognition_badges","Cloud__enable_llm_concierge_chat","Profiles__enable_release_notes_notifications","MiscFeatureFlags__enable_project_variables","Analytics__enable_cookie_bar","Search__enable_ai_eligibility_checks","Profiles__enable_public_developer_profiles","Experiments__reqs_query_experiments","Analytics__enable_all_tenant_analytics","Cloud__enable_legacy_calculator_redirect","CloudShell__cloud_shell_button","Cloud__enable_cloud_facet_chat","Search__enable_ai_search_summaries_restricted","Cloud__enable_cloudx_ping","Profiles__enable_dashboard_curated_recommendations","CloudShell__cloud_code_overflow_menu","Significatio__enable_by_tenant","MiscFeatureFlags__enable_explain_this_code","Cloud__enable_free_trial_server_call","Concierge__enable_pushui","Search__enable_dynamic_content_confidential_banner","BookNav__enable_tenant_cache_key","Concierge__enable_concierge","TpcFeatures__enable_required_headers","Profiles__enable_developer_profiles_callout","Profiles__enable_awarding_url","Cloud__enable_cloud_dlp_service","Search__enable_ai_search_summaries","Profiles__enable_page_saving","Cloud__enable_cloudx_experiment_ids","MiscFeatureFlags__developers_footer_image","EngEduTelemetry__enable_engedu_telemetry","MiscFeatureFlags__emergency_css","Profiles__require_profile_eligibility_for_signin","Profiles__enable_profile_collections"],null,null,"AIzaSyBLEMok-5suZ67qRPzx0qUtbnLmyT_kCVE","https://developerscontentserving-pa.clients6.google.com","AIzaSyCM4QpTRSqP5qI4Dvjt4OAScIN8sOUlO-k","https://developerscontentsearch-pa.clients6.google.com",1,4,null,"https://developerprofiles-pa.clients6.google.com",[1,"developers","Google for Developers","developers.google.com",null,"developers-dot-devsite-v2-prod.appspot.com",null,null,[1,1,[1],null,null,null,null,null,null,null,null,[1],null,null,null,null,null,null,[1],[1,null,null,[1,20],"/recommendations/information"],null,null,null,[1,1,1],[1,1,null,1,1]],null,[null,null,null,null,null,null,"/images/lockup-new.svg","/images/touchicon-180-new.png",null,null,null,null,1,null,null,null,null,null,null,null,null,1,null,null,null,"/images/lockup-dark-theme-new.svg",[]],[],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,[6,1,14,15,20,22,23,29,32,36],null,[[null,null,null,[3,7,10,2,39,17,4,32,24,11,12,13,34,15,25],null,null,[1,[["docType","Choose a content type",[["Tutorial",null,null,null,null,null,null,null,null,"Tutorial"],["Guide",null,null,null,null,null,null,null,null,"Guide"],["Sample",null,null,null,null,null,null,null,null,"Sample"]]],["product","Choose a product",[["Android",null,null,null,null,null,null,null,null,"Android"],["ARCore",null,null,null,null,null,null,null,null,"ARCore"],["ChromeOS",null,null,null,null,null,null,null,null,"ChromeOS"],["Firebase",null,null,null,null,null,null,null,null,"Firebase"],["Flutter",null,null,null,null,null,null,null,null,"Flutter"],["Assistant",null,null,null,null,null,null,null,null,"Google Assistant"],["GoogleCloud",null,null,null,null,null,null,null,null,"Google Cloud"],["GoogleMapsPlatform",null,null,null,null,null,null,null,null,"Google Maps Platform"],["GooglePay",null,null,null,null,null,null,null,null,"Google Pay & Google Wallet"],["GooglePlay",null,null,null,null,null,null,null,null,"Google Play"],["Tensorflow",null,null,null,null,null,null,null,null,"TensorFlow"]]],["category","Choose a topic",[["AiAndMachineLearning",null,null,null,null,null,null,null,null,"AI and Machine Learning"],["Data",null,null,null,null,null,null,null,null,"Data"],["Enterprise",null,null,null,null,null,null,null,null,"Enterprise"],["Gaming",null,null,null,null,null,null,null,null,"Gaming"],["Mobile",null,null,null,null,null,null,null,null,"Mobile"],["Web",null,null,null,null,null,null,null,null,"Web"]]]]]],[1,1],null,1],[[["UA-24532603-1"],["UA-22084204-5"],null,null,["UA-24532603-5"],null,null,[["G-272J68FCRF"],null,null,[["G-272J68FCRF",2]]],[["UA-24532603-1",2]],null,[["UA-24532603-5",2]],null,1],[[13,10],[11,8],[3,2],[12,9],[16,13],[4,3],[6,5],[15,12],[5,4],[1,1],[14,11]],[[2,2],[1,1]]],null,4,null,null,null,null,null,null,null,null,null,null,null,null,null,"developers.devsite.google"]]')
+  
+</script>
+    <devsite-a11y-announce></devsite-a11y-announce>
+  </body>
+</html>
