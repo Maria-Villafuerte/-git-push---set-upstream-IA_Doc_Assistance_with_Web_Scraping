@@ -63,3 +63,4 @@ Navigate to the provided URL in your web browser to interact with the chat inter
 3. The response, along with source citations, is displayed in the chat interface.
 
 ## Images code running 
+![image](https://github.com/user-attachments/assets/ca0a12ac-ac9b-4d1c-939b-67f24ac04836)
