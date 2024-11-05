@@ -53,14 +53,5 @@ Navigate to the provided URL in your web browser to interact with the chat inter
 - `requirements.txt`: List of Python dependencies
 - `.env`: Environment variables (not included in the repository)
 
-## How it Works
-
-1. The user enters a query in the Streamlit interface.
-2. The query is processed by the LangChain pipeline, which includes:
-   - Rephrasing the query based on chat history
-   - Retrieving relevant documents from Pinecone
-   - Generating a response using OpenAI's language model
-3. The response, along with source citations, is displayed in the chat interface.
-
 ## Images code running 
 ![image](https://github.com/user-attachments/assets/ca0a12ac-ac9b-4d1c-939b-67f24ac04836)
